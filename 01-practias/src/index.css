@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+hr {
+  margin: 2rem auto;
+}
+
+a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+.active {
+  border-bottom: 2px solid blue;
+}
